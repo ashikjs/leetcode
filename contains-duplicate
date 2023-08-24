@@ -3,7 +3,7 @@ function containsDuplicate(nums: number[]): boolean {
     const numbObject: any = {}; // We'll use an object to keep track of numbers we've encountered
 
     for (let i = 0; i < nums.length; i++) {  
-        if (!!numbObject[nums[i]]) { // If the number is already in the object, we've found a duplicate
+        if (numbObject[nums[i]]) { // If the number is already in the object, we've found a duplicate
             return true;
         }
         numbObject[nums[i]] = 1; // Otherwise, we mark this number as encountered
