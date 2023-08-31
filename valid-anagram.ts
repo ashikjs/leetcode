@@ -18,6 +18,8 @@ function isAnagram(s: string, t: string): boolean {
     return true;
 };
 
+// Time Complexity: O(N) 
+// Space Complexity: O(N)
 
 /**
 
