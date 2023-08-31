@@ -56,6 +56,7 @@ Returning the Result
 
 If all character counts in the charCount object are zero, it indicates that both strings have the same characters with the same frequencies, making them anagrams. In this case, the function returns true.
 Summary
-In summary, this TypeScript function uses an object (charCount) to count the occurrences of characters in two input strings s and t. It compares the character counts to determine if the strings are anagrams. The algorithm efficiently checks for anagrams with a time complexity of O(N), where N is the length of the strings.
+In summary, this TypeScript function uses an object (charCount) to count the occurrences of characters in two input strings s and t. It compares the character counts to determine if the strings are anagrams.
+The algorithm efficiently checks for anagrams with a time complexity of O(N), where N is the length of the strings.
 
 **/
